@@ -1,0 +1,71 @@
+body {
+    cursor: pointer;
+    background-color: #f4f8fb;
+}
+
+.container {
+    margin: 0 auto;
+    width: 55%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.container-text {
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.container h3 {
+    font-weight: bold;
+}
+
+.container {
+    font-size: 18px;
+}
+
+.container .input-box {
+    width: 100%;
+    background-color: #f4f8fb;
+    height: 30px;
+    border: 0.5px solid #b0b3b3;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    padding: 5px;
+}
+
+.container .input-box:focus {
+    border: 1px solid blue;
+}
+
+.problem-statement h2 {
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.problemstatement1 {
+    margin-bottom: 40px;
+}
+
+.btn-submit {
+    padding: 12px 20px;
+    background-color: #0fe0b9;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/* Media query for mobile devices */
+
+@media (max-width: 800px) {
+    .container {
+        width: 100%;
+    }
+    .container .input-box {
+        margin-right: 20px;
+    }
+}

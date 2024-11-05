@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container-text">
+            <h3>Welcome to the AI Hackathon powered by Transcend AI Labs!</h3>
+            <p>Join us for an exciting journey on <b>23rd-24th November 2024</b>, where participants will tackle real-world challenges through innovative AI solutions. Select <b>One</b> of the six problem statements provided, or unleash the groundbreaking
+                idea you've been passionately working on and developing, and submit your proposal in either Word or PowerPoint format. Your submission will be part of the vetting process, and successful participants will receive a confirmation email.</p>
+            <br>
+            <p>We look forward to seeing your creativity and problem-solving skills in action!</p>
+            <h3>Participant Information</h3>
+            <form action="">
+                <label for="firstname"><span style="font-weight: 400;">First Name</span> <span style="color: red;">*</span></label><br>
+                <input type="text" name="firstname" id="firstname" class="input-box" required>
+                <label for="lastname"><span style="font-weight: 400;">Last Name</span> <span style="color: red;">*</span></label><br>
+                <input type="text" name="lastname" id="lastname" class="input-box" required>
+                <label for="email"><span style="font-weight: 400;">Email</span> <span style="color: red;">*</span></label><br>
+                <input type="email" name="email" id="email" class="input-box" required>
+                <label for="firstname"><span style="font-weight: 400;">Phone Number</span> <span style="color: red;">*</span></label><br>
+                <input type="text" name="firstname" id="firstname" class="input-box" required>
+                <label for="firstname"><span style="font-weight: 400;">University /Organization</span> <span style="color: red;">*</span></label><br>
+                <input type="text" name="firstname" id="firstname" class="input-box" required>
+                <label for="firstname"><span style="font-weight: 400;">Team Name</span> <span style="color: red;">*</span></label><br>
+                <input type="text" name="firstname" id="firstname" class="input-box" required>
+                <label for="team-members"><span style="font-weight: 400;">Team Members</span> <span style="color: red;">*</span></label><br>
+                <select name="team-members" id="team-members" class="input-box" style="height: 40px; width: 101%; font-weight: lighter; font-size: 15px;" required>
+                    <option value="" disabled selected>Please Select </option>
+                    <option value="3">3 Members (minimum)</option>
+                    <option value="4">4 Members</option>
+                    <option value="5">5 Members</option>
+                </select> <label for="firstname"><span style="font-weight: 400;">Member 1 name</span> <span style="color: red;">*</span></label><br>
+                <input type="text" name="firstname" id="firstname" class="input-box" required>
+                <label for="firstname"><span style="font-weight: 400;">Member 2 name</span> <span style="color: red;">*</span></label><br>
+                <input type="text" name="firstname" id="firstname" class="input-box" required>
+                <label for="firstname"><span style="font-weight: 400;">Member 3 name</span> <span style="color: red;">*</span></label><br>
+                <input type="text" name="firstname" id="firstname" class="input-box" required>
+                <label for="firstname"><span style="font-weight: 400;">Member 4 name</label><br>
+                <input type="text" name="firstname" id="firstname" class="input-box">
+                <label for="firstname"><span style="font-weight: 400;">Member 5 name</label><br>
+                <input type="text" name="firstname" id="firstname" class="input-box">
+                <h2 style="font-weight: bold;">Problem Statement Selection</h2>
+                <p style="font-weight: lighter;">( Select one problem statement )</p>
+                <label><strong>Problem Statement <span style="color: red;">*</span></strong></label><br>
+                <div>
+                    <input type="checkbox" id="predictive-maintenance" name="problem-statement" value="Predictive Maintenance for Leased Vehicles">
+                    <label for="predictive-maintenance">1.Predictive Maintenance for Leased Vehicles</label><br>
+
+                    <input type="checkbox" id="automated-risk-assessment" name="problem-statement" value="Automated Risk Assessment for Lease Approvals">
+                    <label for="automated-risk-assessment">2.Automated Risk Assessment for Lease Approvals</label><br>
+
+                    <input type="checkbox" id="residual-value-prediction" name="problem-statement" value="Residual Value Prediction for Leased Vehicles">
+                    <label for="residual-value-prediction">3.Residual Value Prediction for Leased Vehicles</label><br>
+
+                    <input type="checkbox" id="lease-payment-default" name="problem-statement" value="Lease Payment Default Prediction">
+                    <label for="lease-payment-default">4.Lease Payment Default Prediction</label><br>
+
+                    <input type="checkbox" id="vehicle-return-inspection" name="problem-statement" value="AI-Based Vehicle Return Inspection">
+                    <label for="vehicle-return-inspection">5.AI-Based Vehicle Return Inspection</label><br>
+
+                    <input type="checkbox" id="lease-contract-analysis" name="problem-statement" value="AI-Based Lease Contract Analysis">
+                    <label for="lease-contract-analysis">6.AI-Based Lease Contract Analysis</label><br>
+
+                    <input type="checkbox" id="others" name="problem-statement" value="Others">
+                    <label for="others">7.Others</label><br>
+                </div>
+            </form>
+            <div class="main-problem-statement">
+                <div class="problem-statement">
+                    <h2 class="problemstatement1">1. Predictive Maintenance for Leased Vehicles</h2>
+                    <p class="problemstatement1"><strong>Problem Statement:</strong> Create an AI model that predicts when leased vehicles will require maintenance based on usage patterns, vehicle sensor data, and historical maintenance records. The model should alert leasing companies
+                        when maintenance is due, reducing downtime and extending vehicle life.</p>
+                    <p class="problemstatement1"><strong>Expected Solution:</strong> An AI-powered dashboard that offers real-time predictive insights on vehicle health, optimized maintenance schedules, and cost projections.</p>
+                </div>
+
+                <div class="problem-statement">
+                    <h2 class="problemstatement1">2. Automated Risk Assessment for Lease Approvals</h2>
+                    <p class="problemstatement1"><strong>Problem Statement:</strong> Build an AI-driven risk assessment tool that analyzes a customer's financial history, credit score, employment records, and lease history to determine the risk associated with offering a lease. The
+                        solution should provide real-time approval or rejection decisions with detailed justifications.</p>
+                    <p class="problemstatement1"><strong>Expected Solution:</strong> A decision support system that accelerates the lease approval process while minimizing risk exposure for the leasing company.</p>
+                </div>
+
+                <div class="problem-statement">
+                    <h2 class="problemstatement1"> 3. Residual Value Prediction for Leased Vehicles</h2>
+                    <p class="problemstatement1"><strong>Problem Statement:</strong> Build a predictive AI model that estimates the residual value of leased vehicles at the end of their lease term. The model should consider factors like mileage, vehicle condition, market trends,
+                        and historical data to provide accurate predictions.</p>
+                    <p class="problemstatement1"><strong>Expected Solution:</strong> A tool for leasing companies to accurately predict residual values, improving lease terms and reducing losses at the end of lease cycles.</p>
+                </div>
+
+                <div class="problem-statement">
+                    <h2 class="problemstatement1">4. Lease Payment Default Prediction</h2>
+                    <p class="problemstatement1"><strong>Problem Statement:</strong> Develop a machine learning model that predicts the likelihood of a customer defaulting on their lease payments. The model should analyze a customer’s credit history, payment behavior, employment
+                        status, and external economic indicators to assess risk.</p>
+                    <p class="problemstatement1"><strong>Expected Solution:</strong> A predictive tool that helps leasing companies proactively manage high-risk customers, possibly offering restructured payment options to avoid defaults.</p>
+                </div>
+
+                <div class="problem-statement">
+                    <h2 class="problemstatement1">5. AI-Based Vehicle Return Inspection</h2>
+                    <p class="problemstatement1"><strong>Problem Statement:</strong> Create an AI-powered visual inspection tool that uses computer vision to evaluate the condition of returned vehicles. The tool should detect damages, assess wear and tear, and estimate repair costs,
+                        streamlining the vehicle return and reconditioning process.</p>
+                    <p class="problemstatement1"><strong>Expected Solution:</strong> An AI-driven vehicle inspection platform that reduces the time and cost of manual inspections while ensuring fair assessments for customers and leasing companies.</p>
+                </div>
+
+                <div class="problem-statement">
+                    <h2 class="problemstatement1">6. AI-Based Lease Contract Analysis</h2>
+                    <p class="problemstatement1"><strong>Problem Statement:</strong> Design an AI system that can analyze and compare lease contracts to ensure compliance with regulations, highlight key terms for customers, and identify potential risks for the leasing company. The
+                        system should help reduce contract review time.</p>
+                    <p class="problemstatement1"><strong>Expected Solution:</strong> An AI-based contract analysis tool that speeds up the review process and ensures all terms are clearly presented to both parties.</p>
+                </div>
+
+            </div>
+            <div class="Proposal-Submission">
+                <h2 style="font-weight: bolder; " class="problemstatement1">Proposal Submission</h2>
+                <p style="font-weight: lighter;" class="problemstatement1">(Upload your proposal in Word or PowerPoint format)</p>
+                <p>[Drag and drop your file here]</p>
+                <p><b>Note:</b> File name should be: [Your Name]_[Problem Statement Number].docx / .pptx</p>
+                <h4>Upload file <span style="color: red;">*</span></h4>
+                <form action="">
+                    <input type="file" name="fileupload" id="fileupload" required class="problemstatement1">
+                </form>
+                <a href="https://25777251.fs1.hubspotusercontent-eu1.net/hubfs/25777251/Proposal%20Submission%20Guidelines.pdf" style="margin-top: 30px;">Proposal Submissions Guidelines</a>
+            </div>
+            <h2 style="font-weight: bolder; " class="problemstatement1">Submission Deadline</h2>
+            <p style="margin-top: -25px;">All proposals must be submitted by: <strong>10th Nov 2024</strong></p>
+            <h2 style="font-weight: bolder; " class="problemstatement1">Confirmation</h2>
+            <p style="margin-top: -25px;" class="problemstatement1">Selected participants will receive a confirmation email by: <strong>18th Nov 2024</strong></p>
+            <div class="rules">
+                <h2 style="font-weight: bolder; " class="problemstatement1"> Hackathon Rules:</h2>
+                <ul style="color: #b8c9da;">
+                    <li>All participants must maintain professionalism and adhere to ethical standards throughout the event.</li>
+                    <li>All submissions must be original. Plagiarism will result in immediate disqualification.</li>
+                    <li>Teams must consist of a minimum of 3 and a maximum of 5 members.</li>
+                    <li>Proposal submission: Final proposal must be submitted by 10th Nov 2024. Late submissions will not be accepted.</li>
+                    <li>The intellectual property (IP) of the ideas presented remains with the respective teams. However, NETSOL may offer opportunities for collaboration on promising projects.</li>
+                    <li>Projects will be evaluated based on innovation, technical complexity, and potential real-world impact.</li>
+                    <li>Only the top 10 teams will present their projects on the final day to a panel of judges.</li>
+                </ul>
+            </div>
+            <div class="guid">
+                <h2 style="font-weight: bolder; " class="problemstatement1"> Registration Guidelines:</h2>
+                <ul style="color: #b8c9da;">
+                    <li>The team leader must complete the registration process and submit a proposal (PDF or PPT) for one of the provided problem statements by 10th Nov 2024.</li>
+                    <li>The proposals submitted through this form will be used solely for shortlisting teams to participate in the actual event. Only shortlisted teams will proceed to the hackathon.</li>
+                    <li>Only one registration per team is allowed. Multiple registrations from the same team will be disqualified.</li>
+                    <li>Team members must be finalized before registration. Changes to the team composition are not permitted after submission.</li>
+                </ul>
+            </div>
+            <button class="problemstatement1 btn-submit">Submit</button>
+
+        </div>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+
+</html>
