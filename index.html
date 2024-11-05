@@ -25,28 +25,28 @@
                 <input type="text" name="lastname" id="lastname" class="input-box" required>
                 <label for="email"><span style="font-weight: 400;">Email</span> <span style="color: red;">*</span></label><br>
                 <input type="email" name="email" id="email" class="input-box" required>
-                <label for="firstname"><span style="font-weight: 400;">Phone Number</span> <span style="color: red;">*</span></label><br>
-                <input type="text" name="firstname" id="firstname" class="input-box" required>
-                <label for="firstname"><span style="font-weight: 400;">University /Organization</span> <span style="color: red;">*</span></label><br>
-                <input type="text" name="firstname" id="firstname" class="input-box" required>
-                <label for="firstname"><span style="font-weight: 400;">Team Name</span> <span style="color: red;">*</span></label><br>
-                <input type="text" name="firstname" id="firstname" class="input-box" required>
+                <label for="phone"><span style="font-weight: 400;">Phone Number</span> <span style="color: red;">*</span></label><br>
+                <input type="text" name="phone" id="phone" class="input-box" required>
+                <label for="university"><span style="font-weight: 400;">University /Organization</span> <span style="color: red;">*</span></label><br>
+                <input type="text" name="university" id="university" class="input-box" required>
+                <label for="teamname"><span style="font-weight: 400;">Team Name</span> <span style="color: red;">*</span></label><br>
+                <input type="text" name="teamname" id="teamname" class="input-box" required>
                 <label for="team-members"><span style="font-weight: 400;">Team Members</span> <span style="color: red;">*</span></label><br>
                 <select name="team-members" id="team-members" class="input-box" style="height: 40px; width: 101%; font-weight: lighter; font-size: 15px;" required>
                     <option value="" disabled selected>Please Select </option>
                     <option value="3">3 Members (minimum)</option>
                     <option value="4">4 Members</option>
                     <option value="5">5 Members</option>
-                </select> <label for="firstname"><span style="font-weight: 400;">Member 1 name</span> <span style="color: red;">*</span></label><br>
-                <input type="text" name="firstname" id="firstname" class="input-box" required>
-                <label for="firstname"><span style="font-weight: 400;">Member 2 name</span> <span style="color: red;">*</span></label><br>
-                <input type="text" name="firstname" id="firstname" class="input-box" required>
-                <label for="firstname"><span style="font-weight: 400;">Member 3 name</span> <span style="color: red;">*</span></label><br>
-                <input type="text" name="firstname" id="firstname" class="input-box" required>
-                <label for="firstname"><span style="font-weight: 400;">Member 4 name</label><br>
-                <input type="text" name="firstname" id="firstname" class="input-box">
-                <label for="firstname"><span style="font-weight: 400;">Member 5 name</label><br>
-                <input type="text" name="firstname" id="firstname" class="input-box">
+                </select> <label for="team1"><span style="font-weight: 400;">Member 1 name</span> <span style="color: red;">*</span></label><br>
+                <input type="text" name="team1" id="team1" class="input-box" required>
+                <label for="team2"><span style="font-weight: 400;">Member 2 name</span> <span style="color: red;">*</span></label><br>
+                <input type="text" name="team2" id="team2" class="input-box" required>
+                <label for="team3"><span style="font-weight: 400;">Member 3 name</span> <span style="color: red;">*</span></label><br>
+                <input type="text" name="team3" id="team3" class="input-box" required>
+                <label for="team3"><span style="font-weight: 400;">Member 4 name</label><br>
+                <input type="text" name="team4" id="team4" class="input-box">
+                <label for="team5"><span style="font-weight: 400;">Member 5 name</label><br>
+                <input type="text" name="team5" id="team5" class="input-box">
                 <h2 style="font-weight: bold;">Problem Statement Selection</h2>
                 <p style="font-weight: lighter;">( Select one problem statement )</p>
                 <label><strong>Problem Statement <span style="color: red;">*</span></strong></label><br>
@@ -153,8 +153,8 @@
                     <li>Team members must be finalized before registration. Changes to the team composition are not permitted after submission.</li>
                 </ul>
             </div>
-            <button class="problemstatement1 btn-submit">Submit</button>
-
+            <button class="problemstatement1 btn-submit" onclick="functionbtn()">Submit</button>
+            <p class="display"></p>
         </div>
     </div>
 
